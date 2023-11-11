@@ -34,9 +34,12 @@ li a{
 }
 li a:hover{
     background-color: black;
+    color: rgb(145, 104, 110);
 }
 .container{
     display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 /* .container > div{
     margin: 50px;
@@ -52,8 +55,16 @@ li a:hover{
     width: 900px;
     height: 500px;
 }
+.gcontainer>div{
+    justify-content: center;
+    padding-left: 100%;
+}
 .item{
     width: 140px;
     height: 140px;
     text-align: center; 
+}
+.contactContainer{
+    text-align: justify;
+    text-align: center;
 }
