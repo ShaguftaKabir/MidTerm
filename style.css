@@ -38,8 +38,8 @@ li a:hover{
 .container{
     display: flex;
 }
-.container> div{
+/* .container > div{
     margin: 50px;
     padding: 20px;
     width: 400px;
-}
+} */
