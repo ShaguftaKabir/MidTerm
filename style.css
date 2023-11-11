@@ -45,5 +45,15 @@ li a:hover{
 } */
 .gcontainer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 12px;
+    column-gap: 12px;
+    width: 900px;
+    height: 500px;
+}
+.item{
+    width: 140px;
+    height: 140px;
+    text-align: center; 
 }
