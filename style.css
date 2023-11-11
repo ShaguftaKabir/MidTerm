@@ -6,6 +6,15 @@ body{
 header, footer{
     background-color: rgb(50, 45, 45);
     color: pink;
+    position: absolute;
+    width: 100%;
+}
+header{
+    height: 30px;
+}
+footer{
+    height: 60px;
+    bottom: 0;
 }
 ul{
     overflow: hidden;
@@ -14,7 +23,15 @@ ul{
     margin: 0px;
     padding: 0px;
     position: fixed;
+    width: ;
+    height: ;
 }
 li a{
     text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: pink;
+}
+li a:hover{
+    background-color: black;
 }
